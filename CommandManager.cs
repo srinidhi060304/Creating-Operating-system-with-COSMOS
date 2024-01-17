@@ -1,10 +1,11 @@
-﻿using System;
+using Cosmos.Core.Memory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace os_project.Commands
+namespace Advik.Commands
 {
     public class CommandManager
     {
@@ -16,7 +17,7 @@ namespace os_project.Commands
             this.commands.Add(new Shutdown("shutdown"));
             this.commands.Add(new Reboot("reboot"));
             this.commands.Add(new Help("help"));
-            this.commands.Add(new echo("echo"));
+            this.commands.Add(new Echo("echo"));
             this.commands.Add(new File("file"));
         }
 
