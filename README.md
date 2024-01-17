@@ -1,1 +1,2 @@
 # Creating-Operating-system-with-COSMOS
+This is a project created in COSMOS using C# language. It is a simple operating operating system which can do simple tasks like 'echo' which is for printing a string,'reboot' which shuts down and restarts the operating system, 'shutdown' which shuts down the system and 'file' which does all the basic file management operations like rewrite,edit,create,delete,security features etcs. 'Kernel' acts like the typical operating system kernel and acts like the Operating System's Brain.
