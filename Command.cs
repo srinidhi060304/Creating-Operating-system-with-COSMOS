@@ -1,12 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace os_project.Commands
+namespace Advik.Commands
 {
-     
     public class Command
     {
         public readonly String order;
